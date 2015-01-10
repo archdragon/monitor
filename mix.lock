@@ -1,0 +1,8 @@
+%{"calliope": {:hex, :calliope, "0.2.8"},
+  "cowboy": {:hex, :cowboy, "1.0.0"},
+  "cowlib": {:hex, :cowlib, "1.0.1"},
+  "phoenix": {:hex, :phoenix, "0.7.2"},
+  "phoenix_haml": {:git, "git://github.com/chrismccord/phoenix_haml.git", "fa237f444e4dbff605165424ec367f0d7960f00c", []},
+  "plug": {:hex, :plug, "0.9.0"},
+  "poison": {:hex, :poison, "1.3.0"},
+  "ranch": {:hex, :ranch, "1.0.0"}}
