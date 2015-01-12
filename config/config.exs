@@ -13,8 +13,8 @@ config :monitor, Monitor.Endpoint,
   debug_errors: false
 
 # Template
-# config :phoenix, :template_engines,
-#    haml: PhoenixHaml.Engine
+config :phoenix, :template_engines,
+  haml: PhoenixHaml.Engine
 
 # Configures Elixir's Logger
 config :logger, :console,
