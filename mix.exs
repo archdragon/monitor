@@ -15,14 +15,17 @@ defmodule Monitor.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {Monitor, []},
-     applications: [:phoenix, :cowboy, :logger]]
+     applications: [:phoenix, :cowboy, :logger, :postgrex, :ecto]]
   end
 
   # Specifies your project dependencies
   #
   # Type `mix help deps` for examples and options
   defp deps do
-    [{:phoenix, "~> 0.7.2"},
-     {:cowboy, "~> 1.0"}]
+    [{:phoenix, github: "phoenixframework/phoenix", tag: "v0.7.2", override: true},
+     {:cowboy, "~> 1.0"},
+     {:postgrex, ">= 0.0.0"},
+     {:ecto, "~> 0.2.0"},
+     {:phoenix_haml, github: "chrismccord/phoenix_haml"}]
   end
 end
