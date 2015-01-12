@@ -26,6 +26,7 @@ defmodule Monitor.Mixfile do
      {:cowboy, "~> 1.0"},
      {:postgrex, ">= 0.0.0"},
      {:ecto, "~> 0.2.0"},
+     {:jazz, github: "meh/jazz"},
      {:phoenix_haml, github: "chrismccord/phoenix_haml"}]
   end
 end
