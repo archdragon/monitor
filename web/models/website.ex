@@ -1,4 +1,4 @@
-defmodule PhoenixCrud.Website do
+defmodule Monitor.Website do
   use Ecto.Model
 
   schema "websites" do
